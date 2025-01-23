@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=334, initial-scale=1.0">
+    <title>Проект-карточки дота персон</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__block">
+                <div class="header__users">
+                    <div class="header__text">
+                        Капитан
+                    </div>
+                    <div class="header__avatar"></div>
+                </div>
+                <div class="header__nav">
+                    <ul>
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">Что за программа?</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="hello">
+            <div class="hello__display">
+                <div class="hello__text">
+                    Добро пожаловать, Капитан!
+                </div>
+            </div>
+            <div class="hello__display">
+                <div class="hello__text">
+                    Какие герои Вы хотите сегодня взять в бой??
+                </div>
+            </div>
+        </div>
+        <main class="main">
+            <div class="control">
+                <div class="control__block">
+                    <div class="control__display">
+                        <div class="control__append">Успех!</div>
+                        <input type="text" placeholder="имя героя" class="control__input" id="nameHero">
+                        <input type="text" placeholder="класс героя" class="control__input" id="classHero">
+                        <button class="control__button" id="button__accept">В БОЙ!</button>
+                        <!--<button class="control__button" onclick="addHero()">В БОЙ!</button>-->
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="cards">
+            </div>
+          </main>
+          <footer class="footer">
+              <div class="footer__block">
+                  <div class="footer__text">FOOTER</div>
+              </div>
+          </footer>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
